@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="series.xslt"?>
+<!DOCTYPE series SYSTEM "series.dtd">
+<series>
+
+	<collection id="S001">
+		<name>Harry Potter</name>
+		<author>J.K. Rowling</author>
+		<totalBooks>7</totalBooks>
+		<genre>Fantasy</genre>
+		<description>Follow the magical journey of Harry Potter from his first day at Hogwarts to the final battle against the Dark Lord Voldemort. One of the best-selling series of all time.</description>
+		<cover>hp-series.jpg</cover>
+		<startYear>1997</startYear>
+		<status>Completed</status>
+	</collection>
+
+	<collection id="S002">
+		<name>Hunger Games</name>
+		<author>Suzanne Collins</author>
+		<totalBooks>3</totalBooks>
+		<genre>Dystopian</genre>
+		<description>Set in a post-apocalyptic world, follow Katniss Everdeen as she becomes the symbol of a revolution against a ruthless totalitarian government.</description>
+		<cover>hg-series.jpg</cover>
+		<startYear>2008</startYear>
+		<status>Completed</status>
+	</collection>
+
+	<collection id="S003">
+		<name>Maze Runner</name>
+		<author>James Dashner</author>
+		<totalBooks>5</totalBooks>
+		<genre>Dystopian</genre>
+		<description>Thomas wakes up with no memory in a mysterious maze. Together with other boys he must find a way out and uncover the shocking truth behind their imprisonment.</description>
+		<cover>mr-series.jpg</cover>
+		<startYear>2009</startYear>
+		<status>Completed</status>
+	</collection>
+
+	<collection id="S004">
+		<name>Percy Jackson</name>
+		<author>Rick Riordan</author>
+		<totalBooks>5</totalBooks>
+		<genre>Fantasy</genre>
+		<description>Percy Jackson discovers he is the son of a Greek god and embarks on epic quests alongside other demigods to save both the mortal and Olympian worlds.</description>
+		<cover>pj-series.jpg</cover>
+		<startYear>2005</startYear>
+		<status>Completed</status>
+	</collection>
+
+	<collection id="S005">
+		<name>Twilight</name>
+		<author>Stephenie Meyer</author>
+		<totalBooks>4</totalBooks>
+		<genre>Romance</genre>
+		<description>A timeless love story between a teenage girl and a vampire, set against the backdrop of a small rainy town in Washington and the world of supernatural creatures.</description>
+		<cover>tw-series.jpg</cover>
+		<startYear>2005</startYear>
+		<status>Completed</status>
+	</collection>
+
+	<collection id="S006">
+		<name>Divergent</name>
+		<author>Veronica Roth</author>
+		<totalBooks>3</totalBooks>
+		<genre>Dystopian</genre>
+		<description>In a future Chicago divided into factions, Tris Prior discovers she is Divergent and must navigate a world on the brink of war while hiding her dangerous secret.</description>
+		<cover>div-series.jpg</cover>
+		<startYear>2011</startYear>
+		<status>Completed</status>
+	</collection>
+
+	<collection id="S007">
+		<name>Chronicles of Narnia</name>
+		<author>C.S. Lewis</author>
+		<totalBooks>7</totalBooks>
+		<genre>Fantasy</genre>
+		<description>A timeless classic series following children who discover the magical world of Narnia through a wardrobe and embark on extraordinary adventures guided by the great lion Aslan.</description>
+		<cover>narnia-series.jpg</cover>
+		<startYear>1950</startYear>
+		<status>Completed</status>
+	</collection>
+
+	<collection id="S008">
+		<name>Lord of the Rings</name>
+		<author>J.R.R. Tolkien</author>
+		<totalBooks>3</totalBooks>
+		<genre>Fantasy</genre>
+		<description>The greatest fantasy epic ever written. Follow Frodo Baggins and the Fellowship on their quest to destroy the One Ring and save Middle-earth from the Dark Lord Sauron.</description>
+		<cover>lotr-series.jpg</cover>
+		<startYear>1954</startYear>
+		<status>Completed</status>
+	</collection>
+
+	<collection id="S009">
+		<name>ACOTAR</name>
+		<author>Sarah J. Maas</author>
+		<totalBooks>5</totalBooks>
+		<genre>Romance</genre>
+		<description>A Court of Thorns and Roses is a breathtaking series of love, magic and war set in a stunning world of faeries filled with danger, passion and unforgettable characters.</description>
+		<cover>acotar-series.jpg</cover>
+		<startYear>2015</startYear>
+		<status>Completed</status>
+	</collection>
+
+	<collection id="S010">
+		<name>Dune</name>
+		<author>Frank Herbert</author>
+		<totalBooks>6</totalBooks>
+		<genre>Sci-Fi</genre>
+		<description>The greatest science fiction series ever written. Set on the desert planet Arrakis, Dune explores politics, religion and power in a richly imagined future universe.</description>
+		<cover>dune-series.jpg</cover>
+		<startYear>1965</startYear>
+		<status>Completed</status>
+	</collection>
+
+	<collection id="S011">
+		<name>Diary of a Wimpy Kid</name>
+		<author>Jeff Kinney</author>
+		<totalBooks>5</totalBooks>
+		<genre>Children</genre>
+		<description>The laugh-out-loud illustrated diary series following the hilariously relatable misadventures of middle schooler Greg Heffley as he navigates school, family and friendship.</description>
+		<cover>dwk-series.jpg</cover>
+		<startYear>2007</startYear>
+		<status>Ongoing</status>
+	</collection>
+
+</series>

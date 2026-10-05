@@ -1,0 +1,12 @@
+﻿<!ELEMENT books (book+)>
+<!ELEMENT book (title, author, genre, series, seriesOrder, price, stock, isbn, coverImage)>
+<!ATTLIST book id CDATA #REQUIRED>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT genre (#PCDATA)>
+<!ELEMENT series (#PCDATA)>
+<!ELEMENT seriesOrder (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT stock (#PCDATA)>
+<!ELEMENT isbn (#PCDATA)>
+<!ELEMENT coverImage (#PCDATA)>

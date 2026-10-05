@@ -1,0 +1,11 @@
+﻿<!ELEMENT series (collection+)>
+<!ELEMENT collection (name, author, totalBooks, genre, description, cover, startYear, status)>
+<!ATTLIST collection id ID #REQUIRED>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT totalBooks (#PCDATA)>
+<!ELEMENT genre (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT cover (#PCDATA)>
+<!ELEMENT startYear (#PCDATA)>
+<!ELEMENT status (#PCDATA)>

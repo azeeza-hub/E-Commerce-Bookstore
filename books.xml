@@ -1,0 +1,587 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE books SYSTEM "books.dtd">
+<books>
+  <book id="B038">
+    <title>A Court of Thorns and Roses</title>
+    <author>Sarah J. Maas</author>
+    <genre>Romance</genre>
+    <series>ACOTAR</series>
+    <seriesOrder>1</seriesOrder>
+    <price>54.90</price>
+    <stock>45</stock>
+    <isbn>9781619634442</isbn>
+    <coverImage>acotar1.jpg</coverImage>
+  </book>
+  <book id="B039">
+    <title>A Court of Mist and Fury</title>
+    <author>Sarah J. Maas</author>
+    <genre>Romance</genre>
+    <series>ACOTAR</series>
+    <seriesOrder>2</seriesOrder>
+    <price>54.90</price>
+    <stock>42</stock>
+    <isbn>9781526635174</isbn>
+    <coverImage>acotar2.jpg</coverImage>
+  </book>
+  <book id="B040">
+    <title>A Court of Wings and Ruin</title>
+    <author>Sarah J. Maas</author>
+    <genre>Romance</genre>
+    <series>ACOTAR</series>
+    <seriesOrder>3</seriesOrder>
+    <price>54.90</price>
+    <stock>40</stock>
+    <isbn>9781408884959</isbn>
+    <coverImage>acotar3.jpg</coverImage>
+  </book>
+  <book id="B041">
+    <title>A Court of Frost and Starlight</title>
+    <author>Sarah J. Maas</author>
+    <genre>Romance</genre>
+    <series>ACOTAR</series>
+    <seriesOrder>4</seriesOrder>
+    <price>49.90</price>
+    <stock>38</stock>
+    <isbn>9781526635198</isbn>
+    <coverImage>acotar4.jpg</coverImage>
+  </book>
+  <book id="B042">
+    <title>A Court of Silver Flames</title>
+    <author>Sarah J. Maas</author>
+    <genre>Romance</genre>
+    <series>ACOTAR</series>
+    <seriesOrder>5</seriesOrder>
+    <price>59.90</price>
+    <stock>35</stock>
+    <isbn>9781635574006</isbn>
+    <coverImage>acotar5.jpg</coverImage>
+  </book>
+  <book id="B028">
+    <title>The Lion the Witch and the Wardrobe</title>
+    <author>C.S. Lewis</author>
+    <genre>Fantasy</genre>
+    <series>Chronicles of Narnia</series>
+    <seriesOrder>1</seriesOrder>
+    <price>34.90</price>
+    <stock>50</stock>
+    <isbn>9780064405065</isbn>
+    <coverImage>narnia1.jpg</coverImage>
+  </book>
+  <book id="B029">
+    <title>Prince Caspian</title>
+    <author>C.S. Lewis</author>
+    <genre>Fantasy</genre>
+    <series>Chronicles of Narnia</series>
+    <seriesOrder>2</seriesOrder>
+    <price>34.90</price>
+    <stock>45</stock>
+    <isbn>9780064405065</isbn>
+    <coverImage>narnia2.jpg</coverImage>
+  </book>
+  <book id="B030">
+    <title>The Voyage of the Dawn Treader</title>
+    <author>C.S. Lewis</author>
+    <genre>Fantasy</genre>
+    <series>Chronicles of Narnia</series>
+    <seriesOrder>3</seriesOrder>
+    <price>34.90</price>
+    <stock>42</stock>
+    <isbn>9780007115634</isbn>
+    <coverImage>narnia3.jpg</coverImage>
+  </book>
+  <book id="B031">
+    <title>The Silver Chair</title>
+    <author>C.S. Lewis</author>
+    <genre>Fantasy</genre>
+    <series>Chronicles of Narnia</series>
+    <seriesOrder>4</seriesOrder>
+    <price>34.90</price>
+    <stock>40</stock>
+    <isbn>9780064405041</isbn>
+    <coverImage>narnia4.jpg</coverImage>
+  </book>
+  <book id="B032">
+    <title>The Horse and His Boy</title>
+    <author>C.S. Lewis</author>
+    <genre>Fantasy</genre>
+    <series>Chronicles of Narnia</series>
+    <seriesOrder>5</seriesOrder>
+    <price>34.90</price>
+    <stock>38</stock>
+    <isbn>9780007115648</isbn>
+    <coverImage>narnia5.jpg</coverImage>
+  </book>
+  <book id="B033">
+    <title>The Magician's Nephew</title>
+    <author>C.S. Lewis</author>
+    <genre>Fantasy</genre>
+    <series>Chronicles of Narnia</series>
+    <seriesOrder>6</seriesOrder>
+    <price>34.90</price>
+    <stock>35</stock>
+    <isbn>9780007115601</isbn>
+    <coverImage>narnia6.jpg</coverImage>
+  </book>
+  <book id="B034">
+    <title>The Last Battle</title>
+    <author>C.S. Lewis</author>
+    <genre>Fantasy</genre>
+    <series>Chronicles of Narnia</series>
+    <seriesOrder>7</seriesOrder>
+    <price>34.90</price>
+    <stock>33</stock>
+    <isbn>9780007115624</isbn>
+    <coverImage>narnia7.jpg</coverImage>
+  </book>
+  <book id="B049">
+    <title>Diary of a Wimpy Kid</title>
+    <author>Jeff Kinney</author>
+    <genre>Children</genre>
+    <series>Diary of a Wimpy Kid</series>
+    <seriesOrder>1</seriesOrder>
+    <price>29.90</price>
+    <stock>60</stock>
+    <isbn>9780810993136</isbn>
+    <coverImage>wk1.jpg</coverImage>
+  </book>
+  <book id="B050">
+    <title>Rodrick Rules</title>
+    <author>Jeff Kinney</author>
+    <genre>Children</genre>
+    <series>Diary of a Wimpy Kid</series>
+    <seriesOrder>2</seriesOrder>
+    <price>29.90</price>
+    <stock>55</stock>
+    <isbn>9780810994065</isbn>
+    <coverImage>wk2.jpg</coverImage>
+  </book>
+  <book id="B051">
+    <title>The Last Straw</title>
+    <author>Jeff Kinney</author>
+    <genre>Children</genre>
+    <series>Diary of a Wimpy Kid</series>
+    <seriesOrder>3</seriesOrder>
+    <price>29.90</price>
+    <stock>50</stock>
+    <isbn>9780545851978</isbn>
+    <coverImage>wk3.jpg</coverImage>
+  </book>
+  <book id="B052">
+    <title>Dog Days</title>
+    <author>Jeff Kinney</author>
+    <genre>Children</genre>
+    <series>Diary of a Wimpy Kid</series>
+    <seriesOrder>4</seriesOrder>
+    <price>29.90</price>
+    <stock>48</stock>
+    <isbn>9780810983915</isbn>
+    <coverImage>wk4.jpg</coverImage>
+  </book>
+  <book id="B053">
+    <title>The Ugly Truth</title>
+    <author>Jeff Kinney</author>
+    <genre>Children</genre>
+    <series>Diary of a Wimpy Kid</series>
+    <seriesOrder>5</seriesOrder>
+    <price>29.90</price>
+    <stock>45</stock>
+    <isbn>9780545851985</isbn>
+    <coverImage>wk5.jpg</coverImage>
+  </book>
+  <book id="B025">
+    <title>Divergent</title>
+    <author>Veronica Roth</author>
+    <genre>Dystopian</genre>
+    <series>Divergent</series>
+    <seriesOrder>1</seriesOrder>
+    <price>42.90</price>
+    <stock>45</stock>
+    <isbn>9780062024022</isbn>
+    <coverImage>dv1.jpg</coverImage>
+  </book>
+  <book id="B026">
+    <title>Insurgent</title>
+    <author>Veronica Roth</author>
+    <genre>Dystopian</genre>
+    <series>Divergent</series>
+    <seriesOrder>2</seriesOrder>
+    <price>42.90</price>
+    <stock>40</stock>
+    <isbn>9780062024046</isbn>
+    <coverImage>dv2.jpg</coverImage>
+  </book>
+  <book id="B027">
+    <title>Allegiant</title>
+    <author>Veronica Roth</author>
+    <genre>Dystopian</genre>
+    <series>Divergent</series>
+    <seriesOrder>3</seriesOrder>
+    <price>42.90</price>
+    <stock>38</stock>
+    <isbn>9780062024060</isbn>
+    <coverImage>dv3.jpg</coverImage>
+  </book>
+  <book id="B043">
+    <title>Dune</title>
+    <author>Frank Herbert</author>
+    <genre>Sci-Fi</genre>
+    <series>Dune</series>
+    <seriesOrder>1</seriesOrder>
+    <price>59.90</price>
+    <stock>35</stock>
+    <isbn>9780441013593</isbn>
+    <coverImage>dune1.jpg</coverImage>
+  </book>
+  <book id="B044">
+    <title>Dune Messiah</title>
+    <author>Frank Herbert</author>
+    <genre>Sci-Fi</genre>
+    <series>Dune</series>
+    <seriesOrder>2</seriesOrder>
+    <price>54.90</price>
+    <stock>32</stock>
+    <isbn>9780593098234</isbn>
+    <coverImage>dune2.jpg</coverImage>
+  </book>
+  <book id="B045">
+    <title>Children of Dune</title>
+    <author>Frank Herbert</author>
+    <genre>Sci-Fi</genre>
+    <series>Dune</series>
+    <seriesOrder>3</seriesOrder>
+    <price>54.90</price>
+    <stock>30</stock>
+    <isbn>9780441104024</isbn>
+    <coverImage>dune3.jpg</coverImage>
+  </book>
+  <book id="B046">
+    <title>God Emperor of Dune</title>
+    <author>Frank Herbert</author>
+    <genre>Sci-Fi</genre>
+    <series>Dune</series>
+    <seriesOrder>4</seriesOrder>
+    <price>54.90</price>
+    <stock>28</stock>
+    <isbn>9780593098241</isbn>
+    <coverImage>dune4.jpg</coverImage>
+  </book>
+  <book id="B047">
+    <title>Heretics of Dune</title>
+    <author>Frank Herbert</author>
+    <genre>Sci-Fi</genre>
+    <series>Dune</series>
+    <seriesOrder>5</seriesOrder>
+    <price>54.90</price>
+    <stock>25</stock>
+    <isbn>9780441328000</isbn>
+    <coverImage>dune5.jpg</coverImage>
+  </book>
+  <book id="B048">
+    <title>Chapterhouse Dune</title>
+    <author>Frank Herbert</author>
+    <genre>Sci-Fi</genre>
+    <series>Dune</series>
+    <seriesOrder>6</seriesOrder>
+    <price>54.90</price>
+    <stock>22</stock>
+    <isbn>9780441102679</isbn>
+    <coverImage />
+  </book>
+  <book id="B001">
+    <title>Harry Potter and the Philosopher's Stone</title>
+    <author>J.K. Rowling</author>
+    <genre>Fantasy</genre>
+    <series>Harry Potter</series>
+    <seriesOrder>1</seriesOrder>
+    <price>49.90</price>
+    <stock>50</stock>
+    <isbn>9780439708180</isbn>
+    <coverImage>hp1.jpg</coverImage>
+  </book>
+  <book id="B002">
+    <title>Harry Potter and the Chamber of Secrets</title>
+    <author>J.K. Rowling</author>
+    <genre>Fantasy</genre>
+    <series>Harry Potter</series>
+    <seriesOrder>2</seriesOrder>
+    <price>49.90</price>
+    <stock>45</stock>
+    <isbn>9780439064873</isbn>
+    <coverImage>hp2.jpg</coverImage>
+  </book>
+  <book id="B003">
+    <title>Harry Potter and the Prisoner of Azkaban</title>
+    <author>J.K. Rowling</author>
+    <genre>Fantasy</genre>
+    <series>Harry Potter</series>
+    <seriesOrder>3</seriesOrder>
+    <price>52.90</price>
+    <stock>40</stock>
+    <isbn>9780439655484</isbn>
+    <coverImage>hp3.jpg</coverImage>
+  </book>
+  <book id="B004">
+    <title>Harry Potter and the Goblet of Fire</title>
+    <author>J.K. Rowling</author>
+    <genre>Fantasy</genre>
+    <series>Harry Potter</series>
+    <seriesOrder>4</seriesOrder>
+    <price>54.90</price>
+    <stock>38</stock>
+    <isbn>9780439139601</isbn>
+    <coverImage>hp4.jpg</coverImage>
+  </book>
+  <book id="B005">
+    <title>Harry Potter and the Order of the Phoenix</title>
+    <author>J.K. Rowling</author>
+    <genre>Fantasy</genre>
+    <series>Harry Potter</series>
+    <seriesOrder>5</seriesOrder>
+    <price>59.90</price>
+    <stock>35</stock>
+    <isbn>9780439358071</isbn>
+    <coverImage>hp5.jpg</coverImage>
+  </book>
+  <book id="B006">
+    <title>Harry Potter and the Half-Blood Prince</title>
+    <author>J.K. Rowling</author>
+    <genre>Fantasy</genre>
+    <series>Harry Potter</series>
+    <seriesOrder>6</seriesOrder>
+    <price>59.90</price>
+    <stock>32</stock>
+    <isbn>9780439785969</isbn>
+    <coverImage>hp6.jpg</coverImage>
+  </book>
+  <book id="B007">
+    <title>Harry Potter and the Deathly Hallows</title>
+    <author>J.K. Rowling</author>
+    <genre>Fantasy</genre>
+    <series>Harry Potter</series>
+    <seriesOrder>7</seriesOrder>
+    <price>64.90</price>
+    <stock>30</stock>
+    <isbn>9780545139700</isbn>
+    <coverImage>hp7.jpg</coverImage>
+  </book>
+  <book id="B008">
+    <title>The Hunger Games</title>
+    <author>Suzanne Collins</author>
+    <genre>Dystopian</genre>
+    <series>Hunger Games</series>
+    <seriesOrder>1</seriesOrder>
+    <price>42.90</price>
+    <stock>48</stock>
+    <isbn>9780439023481</isbn>
+    <coverImage>hg1.jpg</coverImage>
+  </book>
+  <book id="B009">
+    <title>Catching Fire</title>
+    <author>Suzanne Collins</author>
+    <genre>Dystopian</genre>
+    <series>Hunger Games</series>
+    <seriesOrder>2</seriesOrder>
+    <price>42.90</price>
+    <stock>42</stock>
+    <isbn>9780439023528</isbn>
+    <coverImage>hg2.jpg</coverImage>
+  </book>
+  <book id="B010">
+    <title>Mockingjay</title>
+    <author>Suzanne Collins</author>
+    <genre>Dystopian</genre>
+    <series>Hunger Games</series>
+    <seriesOrder>3</seriesOrder>
+    <price>42.90</price>
+    <stock>40</stock>
+    <isbn>9780439023511</isbn>
+    <coverImage>hg3.jpg</coverImage>
+  </book>
+  <book id="B035">
+    <title>The Fellowship of the Ring</title>
+    <author>J.R.R. Tolkien</author>
+    <genre>Fantasy</genre>
+    <series>Lord of the Rings</series>
+    <seriesOrder>1</seriesOrder>
+    <price>54.90</price>
+    <stock>40</stock>
+    <isbn>9780618574940</isbn>
+    <coverImage>lotr1.jpg</coverImage>
+  </book>
+  <book id="B036">
+    <title>The Two Towers</title>
+    <author>J.R.R. Tolkien</author>
+    <genre>Fantasy</genre>
+    <series>Lord of the Rings</series>
+    <seriesOrder>2</seriesOrder>
+    <price>54.90</price>
+    <stock>38</stock>
+    <isbn>9780618574957</isbn>
+    <coverImage>lotr2.jpg</coverImage>
+  </book>
+  <book id="B037">
+    <title>The Return of the King</title>
+    <author>J.R.R. Tolkien</author>
+    <genre>Fantasy</genre>
+    <series>Lord of the Rings</series>
+    <seriesOrder>3</seriesOrder>
+    <price>54.90</price>
+    <stock>35</stock>
+    <isbn>9780618574964</isbn>
+    <coverImage>lotr3.jpg</coverImage>
+  </book>
+  <book id="B011">
+    <title>The Maze Runner</title>
+    <author>James Dashner</author>
+    <genre>Dystopian</genre>
+    <series>Maze Runner</series>
+    <seriesOrder>1</seriesOrder>
+    <price>39.90</price>
+    <stock>45</stock>
+    <isbn>9780385737951</isbn>
+    <coverImage>mr1.jpg</coverImage>
+  </book>
+  <book id="B012">
+    <title>The Scorch Trials</title>
+    <author>James Dashner</author>
+    <genre>Dystopian</genre>
+    <series>Maze Runner</series>
+    <seriesOrder>2</seriesOrder>
+    <price>39.90</price>
+    <stock>40</stock>
+    <isbn>9780385737968</isbn>
+    <coverImage>mr2.jpg</coverImage>
+  </book>
+  <book id="B013">
+    <title>The Death Cure</title>
+    <author>James Dashner</author>
+    <genre>Dystopian</genre>
+    <series>Maze Runner</series>
+    <seriesOrder>3</seriesOrder>
+    <price>39.90</price>
+    <stock>38</stock>
+    <isbn>9780385737982</isbn>
+    <coverImage>mr3.jpg</coverImage>
+  </book>
+  <book id="B014">
+    <title>The Kill Order</title>
+    <author>James Dashner</author>
+    <genre>Dystopian</genre>
+    <series>Maze Runner</series>
+    <seriesOrder>4</seriesOrder>
+    <price>39.90</price>
+    <stock>35</stock>
+    <isbn>9780385742573</isbn>
+    <coverImage>mr4.jpg</coverImage>
+  </book>
+  <book id="B015">
+    <title>The Fever Code</title>
+    <author>James Dashner</author>
+    <genre>Dystopian</genre>
+    <series>Maze Runner</series>
+    <seriesOrder>5</seriesOrder>
+    <price>39.90</price>
+    <stock>33</stock>
+    <isbn>9780553510577</isbn>
+    <coverImage>mr5.jpg</coverImage>
+  </book>
+  <book id="B016">
+    <title>The Lightning Thief</title>
+    <author>Rick Riordan</author>
+    <genre>Fantasy</genre>
+    <series>Percy Jackson</series>
+    <seriesOrder>1</seriesOrder>
+    <price>44.90</price>
+    <stock>50</stock>
+    <isbn>9780786838653</isbn>
+    <coverImage>pj1.jpg</coverImage>
+  </book>
+  <book id="B017">
+    <title>The Sea of Monsters</title>
+    <author>Rick Riordan</author>
+    <genre>Fantasy</genre>
+    <series>Percy Jackson</series>
+    <seriesOrder>2</seriesOrder>
+    <price>44.90</price>
+    <stock>45</stock>
+    <isbn>9780786856817</isbn>
+    <coverImage>pj2.jpg</coverImage>
+  </book>
+  <book id="B018">
+    <title>The Titan's Curse</title>
+    <author>Rick Riordan</author>
+    <genre>Fantasy</genre>
+    <series>Percy Jackson</series>
+    <seriesOrder>3</seriesOrder>
+    <price>44.90</price>
+    <stock>42</stock>
+    <isbn>9780786856824</isbn>
+    <coverImage>pj3.jpg</coverImage>
+  </book>
+  <book id="B019">
+    <title>The Battle of the Labyrinth</title>
+    <author>Rick Riordan</author>
+    <genre>Fantasy</genre>
+    <series>Percy Jackson</series>
+    <seriesOrder>4</seriesOrder>
+    <price>44.90</price>
+    <stock>40</stock>
+    <isbn>9780786856831</isbn>
+    <coverImage>pj4.jpg</coverImage>
+  </book>
+  <book id="B020">
+    <title>The Last Olympian</title>
+    <author>Rick Riordan</author>
+    <genre>Fantasy</genre>
+    <series>Percy Jackson</series>
+    <seriesOrder>5</seriesOrder>
+    <price>44.90</price>
+    <stock>38</stock>
+    <isbn>9780786856848</isbn>
+    <coverImage>pj5.jpg</coverImage>
+  </book>
+  <book id="B021">
+    <title>Twilight</title>
+    <author>Stephenie Meyer</author>
+    <genre>Romance</genre>
+    <series>Twilight</series>
+    <seriesOrder>1</seriesOrder>
+    <price>39.90</price>
+    <stock>50</stock>
+    <isbn>9780316015844</isbn>
+    <coverImage>tw1.jpg</coverImage>
+  </book>
+  <book id="B022">
+    <title>New Moon</title>
+    <author>Stephenie Meyer</author>
+    <genre>Romance</genre>
+    <series>Twilight</series>
+    <seriesOrder>2</seriesOrder>
+    <price>39.90</price>
+    <stock>45</stock>
+    <isbn>9780316024969</isbn>
+    <coverImage>tw2.jpg</coverImage>
+  </book>
+  <book id="B023">
+    <title>Eclipse</title>
+    <author>Stephenie Meyer</author>
+    <genre>Romance</genre>
+    <series>Twilight</series>
+    <seriesOrder>3</seriesOrder>
+    <price>39.90</price>
+    <stock>42</stock>
+    <isbn>9780316027656</isbn>
+    <coverImage>tw3.jpg</coverImage>
+  </book>
+  <book id="B024">
+    <title>Breaking Dawn</title>
+    <author>Stephenie Meyer</author>
+    <genre>Romance</genre>
+    <series>Twilight</series>
+    <seriesOrder>4</seriesOrder>
+    <price>44.90</price>
+    <stock>40</stock>
+    <isbn>9780316067928</isbn>
+    <coverImage>tw4.jpg</coverImage>
+  </book>
+</books>

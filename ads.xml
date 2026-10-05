@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+	<Ad>
+		<ImageUrl>~/Images/hp1.jpg</ImageUrl>
+		<NavigateUrl>/BookDetail.aspx?id=B001</NavigateUrl>
+		<AlternateText>Harry Potter - The Philosopher's Stone</AlternateText>
+		<Impressions>50</Impressions>
+		<Keyword>Fantasy</Keyword>
+	</Ad>
+	<Ad>
+		<ImageUrl>~/Images/hg1.jpg</ImageUrl>
+		<NavigateUrl>/BookDetail.aspx?id=B008</NavigateUrl>
+		<AlternateText>The Hunger Games</AlternateText>
+		<Impressions>50</Impressions>
+		<Keyword>Dystopian</Keyword>
+	</Ad>
+	<Ad>
+		<ImageUrl>~/Images/acotar1.jpg</ImageUrl>
+		<NavigateUrl>/BookDetail.aspx?id=B038</NavigateUrl>
+		<AlternateText>A Court of Thorns and Roses</AlternateText>
+		<Impressions>50</Impressions>
+		<Keyword>Romance</Keyword>
+	</Ad>
+	<Ad>
+		<ImageUrl>~/Images/dune1.jpg</ImageUrl>
+		<NavigateUrl>/BookDetail.aspx?id=B043</NavigateUrl>
+		<AlternateText>Dune</AlternateText>
+		<Impressions>50</Impressions>
+		<Keyword>Sci-Fi</Keyword>
+	</Ad>
+	<Ad>
+		<ImageUrl>~/Images/pj1.jpg</ImageUrl>
+		<NavigateUrl>/BookDetail.aspx?id=B016</NavigateUrl>
+		<AlternateText>The Lightning Thief</AlternateText>
+		<Impressions>50</Impressions>
+		<Keyword>Fantasy</Keyword>
+	</Ad>
+</Advertisements>

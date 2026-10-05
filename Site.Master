@@ -1,0 +1,175 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.Master.cs" Inherits="PageTurnerBookstore.SiteMaster" %>
+<!DOCTYPE html>
+<html lang="en">
+<head runat="server">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title><%: Page.Title %> - The Reading Nook</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=Cormorant+Garamond:ital,wght@1,400&family=Lato:wght@300;400;700&display=swap" rel="stylesheet"/>
+  <asp:ContentPlaceHolder ID="HeadContent" runat="server"/>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Lato', sans-serif; background-color: #FDF6EC; color: #3C3C3C; }
+    .navbar { background: #3E2723; padding: 0 40px; position: sticky; top: 0; z-index: 1000; border-bottom: 2px solid rgba(212,160,23,0.3); box-shadow: 0 2px 20px rgba(0,0,0,0.3); }
+    .nav-inner { display: flex; align-items: center; justify-content: space-between; height: 65px; gap: 20px; }
+    .nav-left { display: flex; align-items: center; gap: 30px; }
+    .nav-brand { font-family: 'Playfair Display', serif; font-size: 22px; font-weight: 700; color: #D4A017; text-decoration: none; white-space: nowrap; }
+    .nav-brand em { font-style: italic; color: #FDF6EC; }
+    .nav-links { display: flex; gap: 4px; }
+    .nav-links a { color: rgba(253,246,236,0.8); text-decoration: none; font-size: 14px; font-weight: 600; padding: 6px 12px; border-radius: 6px; transition: all 0.2s; white-space: nowrap; }
+    .nav-links a:hover { color: #D4A017; background: rgba(212,160,23,0.1); }
+    .nav-center { flex: 1; max-width: 400px; }
+    .search-bar { display: flex; background: rgba(255,255,255,0.08); border: 1px solid rgba(212,160,23,0.25); border-radius: 8px; overflow: hidden; }
+    .search-bar input { flex: 1; background: transparent; border: none; padding: 8px 14px; color: #FDF6EC; font-size: 13px; font-family: 'Lato', sans-serif; outline: none; }
+    .search-bar input::placeholder { color: rgba(253,246,236,0.4); }
+    .search-bar button { background: #D4A017; border: none; padding: 8px 16px; color: #3E2723; font-size: 13px; font-weight: 700; cursor: pointer; font-family: 'Lato', sans-serif; transition: background 0.2s; white-space: nowrap; }
+    .search-bar button:hover { background: #F0C040; }
+    .nav-right { display: flex; align-items: center; gap: 8px; }
+    .nav-link-plain { color: rgba(253,246,236,0.8); text-decoration: none; font-size: 14px; font-weight: 600; padding: 6px 12px; border-radius: 6px; transition: all 0.2s; white-space: nowrap; }
+    .nav-link-plain:hover { color: #D4A017; background: rgba(212,160,23,0.1); }
+    .nav-btn-outline { color: #FDF6EC; text-decoration: none; font-size: 13px; font-weight: 700; padding: 7px 16px; border-radius: 7px; border: 1px solid rgba(253,246,236,0.3); transition: all 0.2s; white-space: nowrap; }
+    .nav-btn-outline:hover { border-color: #D4A017; color: #D4A017; }
+    .nav-btn-gold { background: #D4A017; color: #3E2723; text-decoration: none; font-size: 13px; font-weight: 700; padding: 7px 16px; border-radius: 7px; border: none; cursor: pointer; font-family: 'Lato', sans-serif; transition: all 0.2s; white-space: nowrap; }
+    .nav-btn-gold:hover { background: #F0C040; }
+    .nav-btn-cart { position: relative; color: rgba(253,246,236,0.8); text-decoration: none; font-size: 13px; font-weight: 700; padding: 7px 16px; border-radius: 7px; border: 1px solid rgba(253,246,236,0.2); transition: all 0.2s; white-space: nowrap; }
+    .nav-btn-cart:hover { border-color: #D4A017; color: #D4A017; }
+    .cart-badge { position: absolute; top: -6px; right: -6px; background: #D4A017; color: #3E2723; font-size: 10px; font-weight: 700; width: 18px; height: 18px; border-radius: 50%; display: flex; align-items: center; justify-content: center; }
+    .nav-dropdown { position: relative; }
+    .dropdown-menu { display: none; position: absolute; right: 0; top: calc(100% + 10px); background: white; border-radius: 12px; box-shadow: 0 10px 40px rgba(62,39,35,0.2); border: 1px solid rgba(212,160,23,0.2); min-width: 200px; overflow: hidden; z-index: 9999; }
+    .nav-dropdown:hover .dropdown-menu { display: block; }
+    .dropdown-header { padding: 14px 16px; background: linear-gradient(135deg, #3E2723, #6D4C41); color: #D4A017; font-size: 13px; font-weight: 700; }
+    .dropdown-menu a { display: block; padding: 11px 16px; color: #3E2723; text-decoration: none; font-size: 14px; font-weight: 600; transition: background 0.2s; }
+    .dropdown-menu a:hover { background: #FDF6EC; color: #D4A017; }
+    .dropdown-divider { height: 1px; background: #f0e8de; margin: 4px 0; }
+    .footer { background: #2C1810; padding: 60px; margin-top: 80px; }
+    .footer-top { display: grid; grid-template-columns: 1.5fr 1fr 1fr 1fr; gap: 40px; max-width: 1300px; margin: 0 auto; padding-bottom: 40px; border-bottom: 1px solid rgba(212,160,23,0.15); }
+    .footer-brand { font-family: 'Playfair Display', serif; font-size: 26px; color: #D4A017; margin-bottom: 12px; }
+    .footer-desc { color: rgba(253,246,236,0.5); font-size: 14px; line-height: 1.8; }
+    .footer-col h4 { color: #D4A017; font-family: 'Playfair Display', serif; font-size: 16px; margin-bottom: 16px; }
+    .footer-col a { display: block; color: rgba(253,246,236,0.55); text-decoration: none; font-size: 13px; margin-bottom: 10px; transition: color 0.2s; }
+    .footer-col a:hover { color: #D4A017; }
+    .footer-bottom { max-width: 1300px; margin: 30px auto 0; display: flex; justify-content: space-between; color: rgba(253,246,236,0.3); font-size: 13px; }
+    .main-content { min-height: 60vh; }
+  </style>
+</head>
+<body>
+<form id="form1" runat="server">
+
+  <nav class="navbar">
+    <div class="nav-inner">
+
+      <!-- LEFT -->
+      <div class="nav-left">
+        <a href="/Default.aspx" class="nav-brand">The Reading <em>Nook</em></a>
+        <div class="nav-links">
+          <a href="/Default.aspx">🏠 Home</a>
+          <a href="/BookList.aspx">📚 Books</a>
+            <a href="/BookQuiz.aspx">🎯 Find Your Book</a>
+          <a href="/SeriesCatalog.aspx">📖 Series</a>
+          <a href="/AboutUs.aspx">ℹ️ About Us</a>
+        </div>
+      </div>
+
+      <!-- CENTER -->
+      <div class="nav-center">
+        <div class="search-bar">
+          <input type="text" id="searchInput" placeholder="Search books, authors, series..."/>
+          <button type="button" onclick="doSearch()">🔍 Search</button>
+        </div>
+      </div>
+
+      <!-- RIGHT -->
+      <div class="nav-right">
+
+        <% if (Session["UserID"] == null) { %>
+          <a href="/Cart.aspx" class="nav-btn-cart">🛒 Cart</a>
+          <a href="/Login.aspx" class="nav-btn-outline">🔐 Login</a>
+          <a href="/Register.aspx" class="nav-btn-gold">📝 Register</a>
+
+        <% } else if (Session["Role"] != null && Session["Role"].ToString() == "Admin") { %>
+          <a href="/BookList.aspx" class="nav-link-plain">📚 Books</a>
+          <a href="/AdminDashboard.aspx" class="nav-link-plain">📊 Dashboard</a>
+          <div class="nav-dropdown">
+            <button type="button" class="nav-btn-gold">👑 Admin ▾</button>
+            <div class="dropdown-menu">
+              <div class="dropdown-header">👑 Admin Panel</div>
+              <a href="/AdminDashboard.aspx">📊 Dashboard</a>
+              <a href="/BookList.aspx">📚 Manage Books</a>
+              <div class="dropdown-divider"></div>
+              <a href="/Logout.aspx">🚪 Logout</a>
+            </div>
+          </div>
+
+        <% } else { %>
+          <a href="/Cart.aspx" class="nav-btn-cart">
+            🛒 Cart
+            <asp:Literal ID="litCartBadge" runat="server"/>
+          </a>
+          <a href="/OrderHistory.aspx" class="nav-link-plain">📦 Orders</a>
+          <div class="nav-dropdown">
+            <button type="button" class="nav-btn-gold">👤 <asp:Literal ID="litUserName" runat="server"/> ▾</button>
+            <div class="dropdown-menu">
+              <div class="dropdown-header">Hi, <asp:Literal ID="litGreeting" runat="server"/>! 👋</div>
+              <a href="/OrderHistory.aspx">📦 Order History</a>
+              <div class="dropdown-divider"></div>
+              <a href="/Logout.aspx">🚪 Logout</a>
+            </div>
+          </div>
+        <% } %>
+
+      </div>
+    </div>
+  </nav>
+
+  <div class="main-content">
+    <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
+  </div>
+
+  <footer class="footer">
+    <div class="footer-top">
+      <div>
+        <div class="footer-brand">The Reading Nook</div>
+        <div class="footer-desc">Your cozy corner for every story. Discover books from the world's most beloved series delivered across Malaysia.</div>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <a href="/Default.aspx">Home</a>
+        <a href="/BookList.aspx">All Books</a>
+        <a href="/SeriesCatalog.aspx">Series</a>
+        <a href="/AboutUs.aspx">About Us</a>
+      </div>
+      <div class="footer-col">
+        <h4>My Account</h4>
+        <a href="/Login.aspx">Login</a>
+        <a href="/Register.aspx">Register</a>
+        <a href="/OrderHistory.aspx">Order History</a>
+        <a href="/Cart.aspx">My Cart</a>
+      </div>
+      <div class="footer-col">
+        <h4>Contact Us</h4>
+        <a href="#">📧 hello@readingnook.com</a>
+        <a href="#">📞 +60 12-345 6789</a>
+        <a href="#">📍 Kuala Lumpur, Malaysia</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 <span style="color:#D4A017;">The Reading Nook</span>. All rights reserved.</span>
+      <span>Made with ❤️ for book lovers</span>
+    </div>
+  </footer>
+
+  <script>
+      function doSearch() {
+          var term = document.getElementById('searchInput').value;
+          if (term.trim() !== '')
+              window.location.href = '/SearchResults.aspx?q=' + encodeURIComponent(term);
+      }
+      document.getElementById('searchInput').addEventListener('keypress', function (e) {
+          if (e.key === 'Enter') doSearch();
+      });
+  </script>
+
+  <asp:ContentPlaceHolder ID="ScriptContent" runat="server"/>
+</form>
+</body>
+</html>

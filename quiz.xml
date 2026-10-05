@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE quiz SYSTEM "quiz.dtd">
+<quiz>
+	<question id="1" text="What's your current mood?">
+		<option value="Fantasy">I want magic and adventure ⚡</option>
+		<option value="Romance">I want something heartwarming 💕</option>
+		<option value="Dystopian">I want something intense 🔥</option>
+		<option value="Sci-Fi">I want to explore the future 🚀</option>
+	</question>
+	<question id="2" text="How long do you usually read?">
+		<option value="Children">Short and fun — 30 mins 🌟</option>
+		<option value="Fantasy">A good hour of adventure ⚡</option>
+		<option value="Romance">Until the chapter ends 💕</option>
+		<option value="Dystopian">All night long 🔥</option>
+	</question>
+	<question id="3" text="Pick your favourite world?">
+		<option value="Fantasy">A magical kingdom ⚡</option>
+		<option value="Sci-Fi">A futuristic universe 🚀</option>
+		<option value="Romance">The real world with drama 💕</option>
+		<option value="Dystopian">A post-apocalyptic world 🔥</option>
+	</question>
+	<question id="4" text="What kind of hero do you prefer?">
+		<option value="Fantasy">A chosen one with powers ⚡</option>
+		<option value="Romance">Someone fighting for love 💕</option>
+		<option value="Dystopian">A rebel against the system 🔥</option>
+		<option value="Sci-Fi">A scientist saving the world 🚀</option>
+	</question>
+	<question id="5" text="Pick a vibe!">
+		<option value="Fantasy">Epic and adventurous ⚡</option>
+		<option value="Romance">Emotional and swoony 💕</option>
+		<option value="Dystopian">Dark and thrilling 🔥</option>
+		<option value="Children">Fun and lighthearted 🌟</option>
+	</question>
+</quiz>

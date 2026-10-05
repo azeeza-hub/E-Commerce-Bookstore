@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35913.81 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PageTurnerBookstore", "PageTurnerBookstore.csproj", "{A49928A5-57D1-4579-9959-0F73233FFF3C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A49928A5-57D1-4579-9959-0F73233FFF3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A49928A5-57D1-4579-9959-0F73233FFF3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A49928A5-57D1-4579-9959-0F73233FFF3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A49928A5-57D1-4579-9959-0F73233FFF3C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BAA9C43E-06A4-4999-AA91-0C8890F6F6B3}
+	EndGlobalSection
+EndGlobal

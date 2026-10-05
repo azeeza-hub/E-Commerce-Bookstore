@@ -1,0 +1,6 @@
+﻿<!ELEMENT quiz (question+)>
+<!ELEMENT question (option+)>
+<!ATTLIST question id CDATA #REQUIRED>
+<!ATTLIST question text CDATA #REQUIRED>
+<!ELEMENT option (#PCDATA)>
+<!ATTLIST option value CDATA #REQUIRED>
