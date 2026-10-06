@@ -151,3 +151,18 @@ Possible future improvements include:
 ---
 
 **PageTurner Bookstore** demonstrates how XML technologies can be integrated into a complete e-commerce application for data representation, validation, transformation, reporting, and application functionality.
+
+## 📸 Project Screenshots
+
+### Homepage
+![Homepage](screenshots/homepage.png)
+
+### Book Catalogue
+![Books](screenshots/books.png)
+
+### Book Details
+![Book Details](screenshots/book-details.png)
+
+### Shopping Cart
+![Cart](screenshots/cart.png)
+
