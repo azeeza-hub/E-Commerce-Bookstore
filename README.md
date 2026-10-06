@@ -158,11 +158,16 @@ Possible future improvements include:
 ![Homepage](screenshots/homepage.png)
 
 ### Book Catalogue
-![Books](screenshots/books.png)
+![Book Catalogue](screenshots/books.png)
 
 ### Book Details
-![Book Details](screenshots/book-details.png)
+![Book Details](screenshots/bookdetail.png)
 
 ### Shopping Cart
-![Cart](screenshots/cart.png)
+![Shopping Cart](screenshots/cart.png)
 
+### Checkout
+![Checkout](screenshots/checkout.png)
+
+### Order History
+![Order History](screenshots/order%20history.png)
