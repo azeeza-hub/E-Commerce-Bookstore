@@ -171,3 +171,6 @@ Possible future improvements include:
 
 ### Order History
 ![Order History](screenshots/order%20history.png)
+
+### Admin Dashboard
+![Admin Dashboard](screenshots/admin.png)
